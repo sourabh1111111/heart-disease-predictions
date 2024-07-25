@@ -11,5 +11,6 @@ The following are examples of input data used to train and test the model:
 age: 52, sex: 1, cp: 0, trestbps: 125, chol: 212, fbs: 0, restecg: 1, thalach: 168, exang: 0, oldpeak: 1, slope: 2, ca: 2, thal: 3, target: 0
 # Example 2 (At Risk)
 age: 58, sex: 0, cp: 0, trestbps: 100, chol: 248, fbs: 0, restecg: 0, thalach: 122, exang: 0, oldpeak: 1, slope: 1, ca: 0, thal: 2, target: 1
+# note
 In these examples, target = 1 indicates the individual is at risk of heart disease (unhealthy), and target = 0 indicates the individual is not at risk (healthy). Note that the target column is not used as an input feature for predictions; it is the label that the model predicts.
 
